@@ -1,0 +1,19 @@
+
+Epoch 1/500 Loss: 118.1832
+Traceback (most recent call last):
+  File "/media/lin/Samsung/AM_AI_SIMU/AI_Models/Conditional_VQ-VAE_in_situ_data/CRVE3D/train_RVE3D.py", line 182, in <module>
+    loss = train(model, training_channels, target_channels, dataloader, criterion, optimizer, 'cuda', epoch, output_folder)
+  File "/media/lin/Samsung/AM_AI_SIMU/AI_Models/Conditional_VQ-VAE_in_situ_data/CRVE3D/train_RVE3D.py", line 49, in train
+    outputs = model(inputs)
+  File "/home/lin/anaconda3/envs/3dunet/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/media/lin/Samsung/AM_AI_SIMU/AI_Models/Conditional_VQ-VAE_in_situ_data/CRVE3D/ldm/RVEnet.py", line 260, in forward
+    x = self.maxpool(conv1)
+  File "/home/lin/anaconda3/envs/3dunet/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/lin/anaconda3/envs/3dunet/lib/python3.9/site-packages/torch/nn/modules/pooling.py", line 244, in forward
+    return F.max_pool3d(input, self.kernel_size, self.stride,
+  File "/home/lin/anaconda3/envs/3dunet/lib/python3.9/site-packages/torch/_jit_internal.py", line 484, in fn
+    return if_false(*args, **kwargs)
+  File "/home/lin/anaconda3/envs/3dunet/lib/python3.9/site-packages/torch/nn/functional.py", line 868, in _max_pool3d
+    return torch.max_pool3d(input, kernel_size, stride, padding, dilation, ceil_mode)

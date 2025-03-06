@@ -1,0 +1,22 @@
+
+Epoch 1/500 Loss: 11.2270
+Epoch 2/500 Loss: 3.9052
+Traceback (most recent call last):
+  File "/media/lin/Samsung/AM_AI_SIMU/AI_Models/Conditional_VQ-VAE_in_situ_data/CRVE3D/train_RVE3D.py", line 182, in <module>
+    loss = train(model, training_channels, target_channels, dataloader, criterion, optimizer, 'cuda', epoch, output_folder)
+  File "/media/lin/Samsung/AM_AI_SIMU/AI_Models/Conditional_VQ-VAE_in_situ_data/CRVE3D/train_RVE3D.py", line 49, in train
+    outputs = model(inputs)
+  File "/home/lin/anaconda3/envs/3dunet/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/media/lin/Samsung/AM_AI_SIMU/AI_Models/Conditional_VQ-VAE_in_situ_data/CRVE3D/ldm/RVEnet.py", line 265, in forward
+    x = self.dconv_down3(x)
+  File "/home/lin/anaconda3/envs/3dunet/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/lin/anaconda3/envs/3dunet/lib/python3.9/site-packages/torch/nn/modules/container.py", line 217, in forward
+    input = module(input)
+  File "/home/lin/anaconda3/envs/3dunet/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/lin/anaconda3/envs/3dunet/lib/python3.9/site-packages/torch/nn/modules/conv.py", line 613, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/home/lin/anaconda3/envs/3dunet/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1601, in __getattr__
+    def __getattr__(self, name: str) -> Union[Tensor, 'Module']:

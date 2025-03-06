@@ -1,0 +1,69 @@
+2025-03-05 21:18:32,249 INFO    StreamThr :14930 [internal.py:wandb_internal():86] W&B internal server running at pid: 14930, started at: 2025-03-05 21:18:32.248742
+2025-03-05 21:18:32,250 DEBUG   HandlerThread:14930 [handler.py:handle_request():144] handle_request: status
+2025-03-05 21:18:32,251 INFO    WriterThread:14930 [datastore.py:open_for_write():85] open: /media/lin/Samsung/AM_AI_SIMU/AI_Models/Conditional_VQ-VAE_in_situ_data/CRVE3D/wandb/run-20250305_211832-nl8p0nb9/run-nl8p0nb9.wandb
+2025-03-05 21:18:32,252 DEBUG   SenderThread:14930 [sender.py:send():369] send: header
+2025-03-05 21:18:32,252 DEBUG   SenderThread:14930 [sender.py:send():369] send: run
+2025-03-05 21:18:32,667 INFO    SenderThread:14930 [dir_watcher.py:__init__():211] watching files in: /media/lin/Samsung/AM_AI_SIMU/AI_Models/Conditional_VQ-VAE_in_situ_data/CRVE3D/wandb/run-20250305_211832-nl8p0nb9/files
+2025-03-05 21:18:32,667 INFO    SenderThread:14930 [sender.py:_start_run_threads():1100] run started: nl8p0nb9 with start time 1741227512.247732
+2025-03-05 21:18:32,667 DEBUG   SenderThread:14930 [sender.py:send_request():396] send_request: summary_record
+2025-03-05 21:18:32,667 INFO    SenderThread:14930 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2025-03-05 21:18:32,669 DEBUG   HandlerThread:14930 [handler.py:handle_request():144] handle_request: check_version
+2025-03-05 21:18:32,669 DEBUG   SenderThread:14930 [sender.py:send_request():396] send_request: check_version
+2025-03-05 21:18:32,804 DEBUG   HandlerThread:14930 [handler.py:handle_request():144] handle_request: run_start
+2025-03-05 21:18:32,835 DEBUG   HandlerThread:14930 [system_info.py:__init__():31] System info init
+2025-03-05 21:18:32,835 DEBUG   HandlerThread:14930 [system_info.py:__init__():46] System info init done
+2025-03-05 21:18:32,835 INFO    HandlerThread:14930 [system_monitor.py:start():181] Starting system monitor
+2025-03-05 21:18:32,835 INFO    SystemMonitor:14930 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2025-03-05 21:18:32,836 INFO    HandlerThread:14930 [system_monitor.py:probe():201] Collecting system info
+2025-03-05 21:18:32,836 INFO    SystemMonitor:14930 [interfaces.py:start():190] Started cpu monitoring
+2025-03-05 21:18:32,837 INFO    SystemMonitor:14930 [interfaces.py:start():190] Started disk monitoring
+2025-03-05 21:18:32,837 INFO    SystemMonitor:14930 [interfaces.py:start():190] Started gpu monitoring
+2025-03-05 21:18:32,838 INFO    SystemMonitor:14930 [interfaces.py:start():190] Started memory monitoring
+2025-03-05 21:18:32,838 INFO    SystemMonitor:14930 [interfaces.py:start():190] Started network monitoring
+2025-03-05 21:18:32,848 DEBUG   HandlerThread:14930 [system_info.py:probe():195] Probing system
+2025-03-05 21:18:32,853 DEBUG   HandlerThread:14930 [gitlib.py:_init_repo():53] git repository is invalid
+2025-03-05 21:18:32,853 DEBUG   HandlerThread:14930 [system_info.py:probe():240] Probing system done
+2025-03-05 21:18:32,853 DEBUG   HandlerThread:14930 [system_monitor.py:probe():210] {'os': 'Linux-5.15.0-134-generic-x86_64-with-glibc2.31', 'python': '3.9.7', 'heartbeatAt': '2025-03-06T02:18:32.848440', 'startedAt': '2025-03-06T02:18:32.243902', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/media/lin/Samsung/AM_AI_SIMU/AI_Models/Conditional_VQ-VAE_in_situ_data/CRVE3D/train_RVE3D.py', 'codePath': 'train_RVE3D.py', 'host': 'lin-system', 'username': 'lin', 'executable': '/home/lin/anaconda3/envs/3dunet/bin/python', 'cpu_count': 12, 'cpu_count_logical': 24, 'cpu_freq': {'current': 2321.0454583333335, 'min': 2200.0, 'max': 3700.0}, 'cpu_freq_per_core': [{'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 3605.091, 'min': 2200.0, 'max': 3700.0}, {'current': 2800.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}], 'disk': {'total': 1832.2062683105469, 'used': 1399.3428344726562}, 'gpu': 'NVIDIA GeForce RTX 3090', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}], 'memory': {'total': 31.247486114501953}}
+2025-03-05 21:18:32,853 INFO    HandlerThread:14930 [system_monitor.py:probe():211] Finished collecting system info
+2025-03-05 21:18:32,853 INFO    HandlerThread:14930 [system_monitor.py:probe():214] Publishing system info
+2025-03-05 21:18:32,853 DEBUG   HandlerThread:14930 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2025-03-05 21:18:32,854 DEBUG   HandlerThread:14930 [system_info.py:_save_pip():67] Saving pip packages done
+2025-03-05 21:18:32,854 DEBUG   HandlerThread:14930 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2025-03-05 21:18:33,670 INFO    Thread-12 :14930 [dir_watcher.py:_on_file_created():272] file/dir created: /media/lin/Samsung/AM_AI_SIMU/AI_Models/Conditional_VQ-VAE_in_situ_data/CRVE3D/wandb/run-20250305_211832-nl8p0nb9/files/wandb-summary.json
+2025-03-05 21:18:33,671 INFO    Thread-12 :14930 [dir_watcher.py:_on_file_created():272] file/dir created: /media/lin/Samsung/AM_AI_SIMU/AI_Models/Conditional_VQ-VAE_in_situ_data/CRVE3D/wandb/run-20250305_211832-nl8p0nb9/files/conda-environment.yaml
+2025-03-05 21:18:33,671 INFO    Thread-12 :14930 [dir_watcher.py:_on_file_created():272] file/dir created: /media/lin/Samsung/AM_AI_SIMU/AI_Models/Conditional_VQ-VAE_in_situ_data/CRVE3D/wandb/run-20250305_211832-nl8p0nb9/files/requirements.txt
+2025-03-05 21:18:35,118 DEBUG   HandlerThread:14930 [system_info.py:_save_conda():86] Saving conda packages done
+2025-03-05 21:18:35,119 INFO    HandlerThread:14930 [system_monitor.py:probe():216] Finished publishing system info
+2025-03-05 21:18:35,139 DEBUG   SenderThread:14930 [sender.py:send():369] send: files
+2025-03-05 21:18:35,139 INFO    SenderThread:14930 [sender.py:_save_file():1354] saving file wandb-metadata.json with policy now
+2025-03-05 21:18:35,145 DEBUG   SenderThread:14930 [sender.py:send():369] send: telemetry
+2025-03-05 21:18:35,145 DEBUG   HandlerThread:14930 [handler.py:handle_request():144] handle_request: stop_status
+2025-03-05 21:18:35,146 DEBUG   SenderThread:14930 [sender.py:send_request():396] send_request: stop_status
+2025-03-05 21:18:35,671 INFO    Thread-12 :14930 [dir_watcher.py:_on_file_modified():289] file/dir modified: /media/lin/Samsung/AM_AI_SIMU/AI_Models/Conditional_VQ-VAE_in_situ_data/CRVE3D/wandb/run-20250305_211832-nl8p0nb9/files/conda-environment.yaml
+2025-03-05 21:18:35,671 INFO    Thread-12 :14930 [dir_watcher.py:_on_file_created():272] file/dir created: /media/lin/Samsung/AM_AI_SIMU/AI_Models/Conditional_VQ-VAE_in_situ_data/CRVE3D/wandb/run-20250305_211832-nl8p0nb9/files/wandb-metadata.json
+2025-03-05 21:18:35,728 INFO    wandb-upload_0:14930 [upload_job.py:push():133] Uploaded file /tmp/tmpnx5ujusuwandb/lid77iwq-wandb-metadata.json
+2025-03-05 21:18:37,417 DEBUG   HandlerThread:14930 [handler.py:handle_request():144] handle_request: status_report
+2025-03-05 21:18:41,562 DEBUG   SenderThread:14930 [sender.py:send():369] send: files
+2025-03-05 21:18:41,562 INFO    SenderThread:14930 [sender.py:_save_file():1354] saving file media/images/Predictions vs Ground Truth_0_fdcbb0c2ff3815fd9279.png with policy now
+2025-03-05 21:18:41,562 DEBUG   HandlerThread:14930 [handler.py:handle_request():144] handle_request: partial_history
+2025-03-05 21:18:41,562 DEBUG   HandlerThread:14930 [handler.py:handle_request():144] handle_request: partial_history
+2025-03-05 21:18:41,563 DEBUG   SenderThread:14930 [sender.py:send():369] send: history
+2025-03-05 21:18:41,563 DEBUG   SenderThread:14930 [sender.py:send_request():396] send_request: summary_record
+2025-03-05 21:18:41,565 INFO    SenderThread:14930 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2025-03-05 21:18:41,672 INFO    Thread-12 :14930 [dir_watcher.py:_on_file_modified():289] file/dir modified: /media/lin/Samsung/AM_AI_SIMU/AI_Models/Conditional_VQ-VAE_in_situ_data/CRVE3D/wandb/run-20250305_211832-nl8p0nb9/files/wandb-summary.json
+2025-03-05 21:18:41,672 INFO    Thread-12 :14930 [dir_watcher.py:_on_file_created():272] file/dir created: /media/lin/Samsung/AM_AI_SIMU/AI_Models/Conditional_VQ-VAE_in_situ_data/CRVE3D/wandb/run-20250305_211832-nl8p0nb9/files/output.log
+2025-03-05 21:18:41,672 INFO    Thread-12 :14930 [dir_watcher.py:_on_file_created():272] file/dir created: /media/lin/Samsung/AM_AI_SIMU/AI_Models/Conditional_VQ-VAE_in_situ_data/CRVE3D/wandb/run-20250305_211832-nl8p0nb9/files/media/images/Predictions vs Ground Truth_0_fdcbb0c2ff3815fd9279.png
+2025-03-05 21:18:41,673 INFO    Thread-12 :14930 [dir_watcher.py:_on_file_created():272] file/dir created: /media/lin/Samsung/AM_AI_SIMU/AI_Models/Conditional_VQ-VAE_in_situ_data/CRVE3D/wandb/run-20250305_211832-nl8p0nb9/files/media/images
+2025-03-05 21:18:41,673 INFO    Thread-12 :14930 [dir_watcher.py:_on_file_created():272] file/dir created: /media/lin/Samsung/AM_AI_SIMU/AI_Models/Conditional_VQ-VAE_in_situ_data/CRVE3D/wandb/run-20250305_211832-nl8p0nb9/files/media
+2025-03-05 21:18:42,073 INFO    wandb-upload_0:14930 [upload_job.py:push():133] Uploaded file /tmp/tmpnx5ujusuwandb/r77x8y1i-media/images/Predictions vs Ground Truth_0_fdcbb0c2ff3815fd9279.png
+2025-03-05 21:18:42,566 DEBUG   HandlerThread:14930 [handler.py:handle_request():144] handle_request: status_report
+2025-03-05 21:18:42,588 INFO    wandb-upload_0:14930 [upload_job.py:push():133] Uploaded file /tmp/tmpnx5ujusuwandb/kreqv9bi-media/images/Predictions vs Ground Truth_0_fdcbb0c2ff3815fd9279.png
+2025-03-05 21:18:43,673 INFO    Thread-12 :14930 [dir_watcher.py:_on_file_modified():289] file/dir modified: /media/lin/Samsung/AM_AI_SIMU/AI_Models/Conditional_VQ-VAE_in_situ_data/CRVE3D/wandb/run-20250305_211832-nl8p0nb9/files/output.log
+2025-03-05 21:18:46,674 INFO    Thread-12 :14930 [dir_watcher.py:_on_file_modified():289] file/dir modified: /media/lin/Samsung/AM_AI_SIMU/AI_Models/Conditional_VQ-VAE_in_situ_data/CRVE3D/wandb/run-20250305_211832-nl8p0nb9/files/output.log
+2025-03-05 21:18:47,821 DEBUG   HandlerThread:14930 [handler.py:handle_request():144] handle_request: status_report
+2025-03-05 21:18:52,822 DEBUG   HandlerThread:14930 [handler.py:handle_request():144] handle_request: status_report
+2025-03-05 21:18:57,824 DEBUG   HandlerThread:14930 [handler.py:handle_request():144] handle_request: status_report
+2025-03-05 21:19:02,829 DEBUG   HandlerThread:14930 [handler.py:handle_request():144] handle_request: status_report
+2025-03-05 21:19:03,684 INFO    Thread-12 :14930 [dir_watcher.py:_on_file_modified():289] file/dir modified: /media/lin/Samsung/AM_AI_SIMU/AI_Models/Conditional_VQ-VAE_in_situ_data/CRVE3D/wandb/run-20250305_211832-nl8p0nb9/files/config.yaml
+2025-03-05 21:19:08,068 DEBUG   HandlerThread:14930 [handler.py:handle_request():144] handle_request: status_report
+2025-03-05 21:19:13,069 DEBUG   HandlerThread:14930 [handler.py:handle_request():144] handle_request: status_report
